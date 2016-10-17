@@ -8,11 +8,6 @@ import org.springframework.stereotype.Component;
 
 
 @SpringBootApplication
-@ComponentScan(basePackages = {
-		"crm.personal.dao",
-		"crm.personal.controler",
-		"crm.personal.service"})
-@EnableJpaRepositories("crm.personal.dao")
 public class PersonalCrmApplication  {
 
 	public static void main(String[] args) {
